@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Manager</title>
+    <link rel="stylesheet" href="userListStyle.css">
+</head>
+<body>
+    <nav><a href="userContainer.html" target="_blank">Open User List</a></nav>
+    <div id="entering">
+        <p>Kérem adja meg a következő adatokat:</p>
+        <input type="text" id="name" placeholder="Név...">
+        <input type="email" id="email" placeholder="E-mail...">
+        <input type="number" id="phone" placeholder="Mobil...">
+        <button type="submit" id="button">Mentés</button>
+    </div>
+    <div id="cardList"></div>
+
+    <!--
+        A feladat egy felhasználó karbantartó készítése. Két felületet szeretnék látni.
+        Egyik egy felhasználó lista, a másik pedig egy felhasználó rögzítése/szerkesztése felület.
+        Az adatok perzisztens módon legyenek tárolva valamely böngészőben támogatott adat tárolási módszerrel.
+        A kezelt/tárolt adatok körének nem kell túl nagynak lennie, elég, ha pár adat kezelve van.
+        A feladat megoldására két hetet adok, kérlek, hogy 2020.07.17-ig fejezd be, vagy jelezd, ha valamilyen akadályba ütköztél, ami miatt a határidő nem tartható.
+    -->
+    <script src="userList.js"></script>
+</body>
+</html>
